@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1000px;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+}
+/* ----- Below is general code for multiple elements in the profile page ---- */
+
+/* These are the black bars on top of the boxes */
+.top-bar {
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+/* Modifying "pic-list" sizes */
+.pic-list {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.approve, .deny {
+    height: 30px;
+    width: 30px;
+}
+.approve {
+    margin-right: 5px;
+    margin-left: 20%;
+}
+
+span p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+span img {
+    margin-right: 50px;
+}
+
+/* ----- All Code just for the NavBar ------- */
+.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.nav-links {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    list-style-type: none;
+    font-weight: lighter;
+    margin: 10px;
+    padding-right: 10px;
+}
+.nav-title {
+    color: white;
+    
+}
+.nav li a{
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btn {
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin-right: 5%;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+
+}
+.active {
+    font-weight: bold;
+}
+/* ^^^^^^ End of NavBar ^^^^^^ */
+
+.column {
+    flex: 20%;
+    display: inline;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+/* ------ Box 1 / User Card code below ------- */
+.box-1 {
+    height: 350px;
+    width: 500px;
+    border: solid grey;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.card-top {
+    margin-bottom: 40px;
+    background-color: darkcyan;
+    height: 120px;
+}
+
+.card-detail {
+    margin: 20px;
+    
+}
+.prof-pic {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 3px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.map-pin {
+    height: 20px;
+    width: 10px;
+}
+.wheel {
+    height: 20px;
+    width: 20px;
+    color: darkcyan;
+}
+
+a {
+    color: darkcyan;
+}
+/* ^^^^^^ End of User Card ^^^^^^ */
+
+/* ----- Box 2 / Education code below ------  */
+.box-2 {
+    height: 150px;
+    width: 500px;
+    margin: 20px;
+    border: solid grey;
+}
+.edu {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.box2-body {
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    padding-top: 5px;
+}
+/* ^^^^^^ End of Education code ^^^^^^ */
+
+/* ----- Box 3 / Connection Request code below ------- */
+.box-3 {
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    border: solid grey;
+}
+
+.con-req{
+    text-align: center;
+    padding: 10px;
+}
+
+.box3-body {
+    padding: 10px;
+    padding-left: 10px;
+    
+}
+
+/* box 4 is Your Connections */
+.box-4 {
+    height: 270px;
+    width: 250px;
+    margin: 20px;
+    border: solid grey;
+}
+
+.your-con {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.box4-body {
+    padding: 10px;
+    padding-left: 10px;
+    height: 170px;
+    border: solid grey;
+    
+}
+
+.view-more {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
